@@ -246,3 +246,16 @@ body {
 
 .reveal small code {
   vertical-align: baseline; }
+
+/*********************************************
+ * Sponsors
+ *********************************************/
+.reveal .hoster-hiring {
+   transform: rotate(340deg);
+   font-family: 'Lobster', cursive;
+   color: #FF1F1A;
+   font-size: 2em;
+   float: right;
+   margin-top: -1em;
+   text-shadow: 1px 1px 1px #000;
+ }
