@@ -159,6 +159,7 @@ body {
 .reveal section img.speaker {
   margin: 0;
   border: 15px solid white;
+  max-width: 300px;
 }
 
 .reveal section img.meetup {
