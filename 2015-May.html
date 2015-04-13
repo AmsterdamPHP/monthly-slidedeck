@@ -39,6 +39,32 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+        <script>
+            slideData = {
+                "text": {
+                    "date": "May 2015",
+                    "speaker-name": "José Lorenzo",
+                    "joind-in": "https://joind.in/xxxx",
+                    "next-meetup-date": "21th of May",
+                    "next-meetup-talk": "Talk by Damien Seguy"
+                },
+                "images": {
+                    "hoster-small": {
+                        "src": "img/hoster-logos/harver-large.png",
+                        "alt": "Hosted by Harver"
+                    },
+                    "hoster-large": {
+                        "src": "img/hoster-logos/harver-large.png",
+                        "alt": "Hosted by Harver"
+                    },
+                    "speaker-face": {
+                        "src": "img/speakers/jose_lorenzo.jpg",
+                        "alt": "Speaker: José Lorenzo"
+                    }
+                }
+            };
+        </script>
 	</head>
 
 	<body>
@@ -48,12 +74,12 @@
 			<div class="slides">
 				<section>
 					<img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
-					<h4>March 2015</h4>
+                    <h4 id="date"></h4>
 
 					<div class="two-columns" style="margin-top: 4em;">
 						<div>
 							<p>Hosted by</p>
-							<img class="hoster white-background" src="img/hoster-logos/harver-large.png" alt="Hosted by Harver">
+							<img id="hoster-small" class="hoster white-background" src="" alt="">
 						</div>
 
 						<div>
@@ -69,7 +95,7 @@
 
 				<section>
 					<h1>Tonight's Sponsors</h1>
-					<img class="hoster big white-background" src="img/hoster-logos/harver-large.png" alt="Hosted by Harver">
+					<img id="hoster-large" class="hoster big white-background" src="" alt="">
 				</section>
 
 				<section>
@@ -115,11 +141,11 @@
 
 					<div class="two-columns" style="margin-top: 4em;">
 						<div>
-							<img class="speaker" src="img/speakers/jose_lorenzo.jpg" alt="Speaker: José Lorenzo">
+							<img id="speaker-face" class="speaker" src="" alt="">
 						</div>
 
 						<div>
-							<h3 class="fancy">José Lorenzo</h3>
+							<h3 id="speaker-name" class="fancy"></h3>
 						</div>
 					</div>
 				</section>
@@ -140,7 +166,7 @@
 						<div>
 							<img class="white-background" src="img/joindin.png" alt="JoindIn">
 							<h2 class="fancy">The Speaker</h2>
-							<a href="https://joind.in/xxxx">https://joind.in/xxxx</a>
+							<a id="joind-in" href="https://joind.in/xxxx"></a>
 						</div>
 					</div>
 				</section>
@@ -213,8 +239,8 @@
 
 				<section>
 					<img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
-					<h3>21th of May</h3>
-					<h4>Talk by Damien Seguy</h4>
+					<h3 id="next-meetup-date"></h3>
+					<h4 id="next-meetup-talk"></h4>
 				</section>
 			</div>
 
@@ -250,10 +276,9 @@
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'js/theme/amsterdamphp.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'plugin/jquery/jquery.js', condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/jquery/jquery.corner.js', async: true, callback: function() { enhanceSpeakerImage(); }, condition: function() { return !!document.body.classList; } }
+					{ src: 'plugin/jquery/jquery.corner.js', async: true, callback: function() { enhanceSpeakerImage(); fillSlideData(); }, condition: function() { return !!document.body.classList; } }
 				]
 			});
-
 		</script>
 	</body>
 </html>
