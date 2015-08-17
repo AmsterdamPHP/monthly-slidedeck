@@ -11,6 +11,9 @@ function fillSlideData()
 }
 
 function enhanceSpeakerImage() {
-  var speakerInfo = $("img.speaker").parent();
-  $(speakerInfo).corner("bite 20px");
+    var speakerInfo = $("img.speaker").parent();
+
+    speakerInfo.each(function() {
+        $(this).corner("bite 20px");
+    });
 }
