@@ -149,6 +149,8 @@ body {
 .reveal section img.big {
   max-width: 800px;
   max-height: 450px;
+  min-width: 250px;
+  min-height: 250px;
 }
 
 .reveal section img.white-background {
