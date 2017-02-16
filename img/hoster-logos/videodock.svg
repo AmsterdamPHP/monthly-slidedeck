@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 219.5 33.5" enable-background="new 0 0 219.5 33.5" xml:space="preserve">
+<g id="woordmerk">
+
+    <!--V-->
+    <g>
+        <path id="Fill-8" fill="#292928" d="M8.3,33.1h3.4c0.7-1.9,3.8-10.9,4.5-13.3c0.5-1.6,0.6-2.6,0.6-3.8V0.5h-4.8
+		    c0,2.5,0,13.6,0,14.8c0,1.6-0.1,2.7-0.7,4.3c-0.5,1.5-1.3,4.2-2.9,8.9c-0.2,0.6-0.4,1.2-0.4,1.2"/>
+        <path id="Fill-9" fill="#292928" d="M8.8,29.7c0,0-0.2-0.6-0.4-1.2c-1.6-4.7-2.5-7.4-2.9-8.9c-0.5-1.6-0.7-2.7-0.7-4.3
+		    c0-1.2,0-12.4,0-14.8H0V16c0,1.2,0.1,2.2,0.6,3.8c0.8,2.3,3.8,11.4,4.5,13.3h3.4"/>
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" />-->
+    </g>
+    <!--I-->
+    <path id="Fill-10" fill="#292928" d="M26.4,0.5h4.8v32.6h-4.8V0.5z">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".2s" begin="0s" />-->
+    </path>
+
+    <!--D-->
+    <path id="Fill-3" fill="#292928" d="M41.7,33.1h8.2c5.9,0,8.8-3.2,8.8-9.6V10.1c0-6.5-2.9-9.7-8.8-9.7h-8.2V33.1L41.7,33.1z
+		 M49.1,29.3h-2.5V4.2h2.5c3.4,0,4.7,1.4,4.7,5.2v14.7C53.8,27.9,52.5,29.3,49.1,29.3L49.1,29.3z">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".3s" begin="0s" />-->
+    </path>
+
+    <!--E-->
+	<path id="Fill-4" fill="#292928" d="M68.8,33.1h15.4v-4H73.7V18.8h7.1v-4h-7.1V4.5h10.1v-4H68.8V33.1">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".4s" begin="0s" />-->
+    </path>
+
+    <!--O-->
+    <path id="Fill-5" fill="#292928" d="M101.8,0c-5.3,0-8.5,3-8.5,8.1v17.3c0,5.1,3.2,8.1,8.5,8.1c5.3,0,8.5-3,8.5-8.1V8.1
+		C110.2,3,107.1,0,101.8,0L101.8,0z M101.8,29.5c-3.2,0-3.6-2.1-3.6-4.2v-17c0-2.1,0.4-4.2,3.6-4.2c3.2,0,3.6,2.1,3.6,4.2v17
+		C105.4,27.4,104.9,29.5,101.8,29.5L101.8,29.5z">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" begin=".4s" />-->
+    </path>
+
+    <!--D-->
+    <path id="Fill-6" fill="#292928" d="M120.9,33.1h8.2c5.9,0,8.8-3.2,8.8-9.6V10.1c0-6.5-2.9-9.7-8.8-9.7h-8.2V33.1L120.9,33.1z
+		 M128.3,29.3h-2.5V4.2h2.5c3.4,0,4.7,1.4,4.7,5.2v14.7C133,27.9,131.7,29.3,128.3,29.3L128.3,29.3z">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" begin=".5s" />-->
+    </path>
+
+    <!--O-->
+    <path id="Fill-7" fill="#292928" d="M157,0c-5.3,0-8.5,3-8.5,8.1v17.3c0,5.1,3.2,8.1,8.5,8.1c5.3,0,8.5-3,8.5-8.1V8.1
+		C165.5,3,162.3,0,157,0L157,0z M157,29.5c-3.2,0-3.6-2.1-3.6-4.2v-17c0-2.1,0.4-4.2,3.6-4.2c3.2,0,3.6,2.1,3.6,4.2v17
+		C160.6,27.4,160.2,29.5,157,29.5L157,29.5z">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" begin=".6s" />-->
+    </path>
+
+    <!--C-->
+    <path id="Fill-11" fill="#292928" d="M184.6,0c-5.3,0-8.5,3-8.5,8.1v17.3c0,5.1,3.2,8.1,8.5,8.1c6,0,8.2-4.2,8.2-8.1v-1.6H188v1.8
+		c0,1.7-0.3,3.9-3.3,3.9c-3.2,0-3.6-2.1-3.6-4.2v-17c0-2.1,0.4-4.2,3.6-4.2c1.6,0,3.3,1.2,3.3,4.5V9h4.9V8.7
+		C192.8,4.5,190.7,0,184.6,0">
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" begin=".7s" />-->
+    </path>
+
+    <!--K-->
+    <g>
+        <path id="Fill-1" fill="#292928" d="M202.2,0.5h4.9v32.6h-4.9V0.5z" />
+        <path id="Fill-2" fill="#292928" d="M214.4,33.1h5.1L214,16.7l4.4-16.2h-5l-4.1,16.2c0,0,0,0,0,0.1c0,0,0,0,0,0L214.4,33.1"/>
+        <!--<animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur=".1s" begin=".8s" />-->
+    </g>
+
+
+
+
+
+
+</g>
+</svg>
