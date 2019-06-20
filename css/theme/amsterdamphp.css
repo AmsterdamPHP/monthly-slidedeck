@@ -95,8 +95,13 @@ body {
 .reveal h2.fancy,
 .reveal h3.fancy,
 .reveal h4.fancy,
-.reveal a.fancy {
+.reveal a.fancy,
+.reveal span.fancy {
   font-family: 'Lobster', cursive;
+}
+
+.reveal span.fancy li {
+
 }
 
 .reveal h4 {
@@ -180,6 +185,10 @@ body {
   list-style: none;
 }
 
+.reveal section ul.spaced li {
+  margin-top: 1.5em;
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
@@ -261,4 +270,12 @@ body {
    font-size: 2em;
    margin-left: 5em;
    text-shadow: 1px 1px 1px #000;
+ }
+
+/*********************************************
+ * Generic
+ *********************************************/
+.reveal .big-red {
+  color: #FF1F1A;
+  font-size: 2em;
  }
