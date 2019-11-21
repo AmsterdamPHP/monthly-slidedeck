@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>AmsterdamPHP</title>
+
+        <meta name="author" content="AmsterdamPHP Enablers">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/amsterdamphp.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Lobster font -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        <!-- Font awesome for icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <script>
+            slideData = {
+                "text": {
+                    "date": "November 2019",
+                    "speaker-name": "Gabriel Caruso",
+                    "next-meetup-date": "20th of December"
+                },
+                "images": {
+                    "hoster-small": {
+                        "src": "img/hoster-logos/messagebird-full.svg",
+                        "alt": "Hosted by de MessageBird"
+                    },
+                    "hoster-large": {
+                        "src": "img/hoster-logos/messagebird-full.svg",
+                        "alt": "Hosted by de MessageBird"
+                    },
+                    "hoster-next": {
+                        "src": "img/hoster-logos/nutsgroep.jpg",
+                        "alt": "Nutsgroup"
+                    },
+                    "speaker-face": {
+                        "src": "img/speakers/gabriel_caruso.png",
+                        "alt": "Speaker: Gabriel Caruso"
+                    }
+                }
+            };
+        </script>
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    <img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
+                    <h4 id="date"></h4>
+
+                    <div class="two-columns" style="margin-top: 4em;">
+                        <div>
+                            <p>Hosted by</p>
+                            <img id="hoster-small" class="hoster" src="" alt="">
+                        </div>
+
+                        <div>
+                            <ul class="pointless">
+                                <li>18h30 - Opening doors. Welcome, food and drinks.</li>
+                                <li>19h20 - Lightning talk: CDC Testing: A chitchat between the provider and consumer, Deniz Kilic</li>
+                                <li>19h50 - Talk</li>
+                                <li>20h30 - Social</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h1>Tonight's Sponsors</h1>
+                    <img id="hoster-large" class="hoster big" src="" alt="">
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Tonight's Prizes</h1>
+                </section>
+
+                <section>
+                    <h1>Books!</h1>
+
+                    <img class="hoster big" src="img/hoster-logos/messagebird-full.svg" alt="Sponsor: MessageBird">
+                    <div class="fragment grow hoster-hiring">
+                        We're hiring!
+                    </div>
+                </section>
+
+                <!-- <section data-background="img/pagination_promo.jpg">
+                </section> -->
+
+                <section>
+                    <h1>Tonight's Speaker</h1>
+
+                    <div class="two-columns" style="margin-top: 4em;">
+                        <div>
+                            <img id="speaker-face" class="speaker" src="" alt="">
+                        </div>
+
+                        <div>
+                            <h3 id="speaker-name" class="fancy"></h3>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Conferences and Events</h1>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Serverless PHP workshop</h1>
+                    <img width="600" src="img/serverless-workshop.jpg">
+                    <h4>December 2th-3th</h4>
+                    <h4>Amsterdam</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">PHP Serbia</h1>
+                    <img width="600" src="img/conference-logos/phpserbia-2020.png">
+                    <h4>May 21th-23th</h4>
+                    <h4>Belgrade, Serbia</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Call for Hosters and Speakers for our 2020 vision</h1>
+                </section>
+
+                <section>
+                    <img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
+                    <div class="two-columns" style="margin-top: 1.5em;">
+                        <div>
+                            <h1 id="next-meetup-talk" class="slide fancy" style="font-size: 1.45em; max-width: 8em;"></h1>
+                            <h2 id="next-meetup-speaker" style="font-size: 0.9em;"></h2>
+                        </div>
+                        <div><img id="hoster-next" class="hoster" src="" alt="" style="min-width: 400px;"></div>
+                    </div>
+                    <h3 id="next-meetup-date" style="clear: both; margin-top: 5em"></h3>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'js/theme/amsterdamphp.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/jquery/jquery.js', condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/jquery/jquery.corner.js', async: true, callback: function() { enhanceSpeakerImage(); fillSlideData(); }, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+        </script>
+    </body>
+</html>
