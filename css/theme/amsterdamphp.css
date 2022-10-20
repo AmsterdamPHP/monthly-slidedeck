@@ -45,12 +45,9 @@ body {
 /*********************************************
  * BLOCKS
  *********************************************/
-.reveal section div.two-columns > div:first-child {
-  float: left;
-}
-
-.reveal section div.two-columns > div:last-child {
-  float: right;
+.reveal section div.two-columns {
+  display: flex;
+  justify-content: space-between;
 }
 
 .reveal section h1.checkin > span:first-child {
