@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>AmsterdamPHP</title>
+
+        <meta name="author" content="AmsterdamPHP Enablers">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/amsterdamphp.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Lobster font -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+        <!-- Font awesome for icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <script>
+            slideData = {
+                "text": {
+                    "date": "March 2024",
+                    "speaker-name": "Jelrik van Hal",
+                    "speaker-subject": "Trunk-based development",
+                    "joind-in": "",
+                    "next-meetup-date": "18th of April",
+                    "next-meetup-talk": "How can I trust my testsuite?",
+                    "next-meetup-speaker": "Antonello D'Ippolito"
+                },
+                "images": {
+                    "speaker-face": {
+                        "src": "img/speakers/jelrik-van-hal.jpeg",
+                        "alt": "Speaker: Jelrik van Hal"
+                    },
+                    "hoster-small": {
+                        "src": "img/hoster-logos/bit-academy.svg",
+                        "alt": "Bit Academy"
+                    },
+                    "hoster-large": {
+                        "src": "img/hoster-logos/bit-academy.svg",
+                        "alt": "Bit Academy"
+                    },
+                    "hoster-co-sponsor": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "hoster-next": {
+                        "src": "img/hoster-logos/grrr.svg",
+                        "alt": "GRRR"
+                    },
+                    "hoster-next-co-sponsor": {
+                        "src": "",
+                        "alt": ""
+                    }
+                }
+            };
+        </script>
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    <img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
+                    <h4 id="date"></h4>
+
+                    <div class="two-columns" style="margin-top: 4em;">
+                        <div>
+                            <p>Hosted by</p>
+                            <img id="hoster-small" class="hoster" src="" alt="">
+                        </div>
+
+                        <div>
+                            <ul class="pointless">
+                                <li>19h00 - 19h30: Welcome &amp; Drinks</li>
+                                <li>19h30 - 19h35: Opening</li>
+                                <li>19h35 - 19:45: Lightning!</li>
+                                <li>19h45 - 20h30: Talk</li>
+                                <li>20h30 - 21h30: Raffle &amp; Social</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h1>Tonight's Sponsor</h1>
+                    <img id="hoster-large" class="hoster big" src="" alt="">
+                    <h1 class="slide fancy">Looking for projects!</h1>
+                </section>
+
+                <section>
+                    <h1>Tonight's Speaker</h1>
+
+                    <div class="two-columns" style="margin-top: 4em;">
+                        <div>
+                            <img id="speaker-face" class="speaker" src="" alt="">
+                        </div>
+
+                        <div>
+                            <h3 id="speaker-name" class="fancy"></h3>
+                            <p id="speaker-subject" style="margin-top: 2rem"></p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h1 class="fancy">Rating</h1>
+
+                    <div class="">
+                        <div>
+                            <img class="meetup" src="img/meetup-large.png" alt="Meetup">
+                            <h2 class="fancy">The Venue</h2>
+                        </div>
+
+<!--                        <div>-->
+<!--                            <img class="white-background" src="img/joindin.png" alt="JoindIn">-->
+<!--                            <h2 class="fancy">The Speaker</h2>-->
+<!--                            <a id="joind-in" href="https://joind.in/event/amsterdamphp-monthly-meeting-&#45;&#45;january2023"></a>-->
+<!--                        </div>-->
+                    </div>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Conferences and Events</h1>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">DDD Europe 2024</h1>
+                    <img width="600" src="img/conference-logos/ddd-europe-2022.png">
+                    <h4>May 27th-31st</h4>
+                    <h4>Amsterdam</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">C3 Dev Festival</h1>
+                    <img width="600" src="img/conference-logos/c3fest.svg">
+                    <h4>June 14th-15th</h4>
+                    <h4>Amsterdam</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Laracon Live Denmark</h1>
+                    <img width="400" src="img/conference-logos/laraceneu2024.png">
+                    <h4>Aug 22nd-23rd</h4>
+                    <h4>Copenhagen, Denmark</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Tonight's Prizes</h1>
+                </section>
+
+                <section>
+                    <h1>Jetbrains Licence</h1>
+                    <img class="hoster big" src="img/hoster-logos/jetbrains.svg" alt="Sponsor: Jetbrains">
+                </section>
+
+                <section>
+                    <h1>C3 Ticket</h1>
+                    <img class="hoster big" src="img/conference-logos/c3fest.svg" alt="Sponsor: C3 Dev Fest">
+                </section>
+
+<!--                <section>-->
+<!--                    <h1>📚 Book</h1>-->
+<!--                </section>-->
+
+<!--                <section>-->
+<!--                    <h1>Elephants!</h1>-->
+
+<!--                    <img class="hoster big" src="img/logo-transparent-background.png" alt="Sponsor: AmsterdamPHP">-->
+<!--                    <img class="hoster big" src="img/hoster-logos/mollie-new.jpg" alt="Sponsor: Mollie">-->
+<!--                </section>-->
+
+<!--                <section data-background="img/pagination_promo.jpg">-->
+<!--                </section>-->
+
+               <section>
+                    <h1 class="slide fancy">Raffles</h1>
+                    <p style="margin-top: 3em">
+                        Switch tabs
+                    </p>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">So many people want to contribute...</h1>
+                    <h2 style="font-size: 0.9em;">... and we love that!</h2>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Lightning talks</h1>
+                    <h4 style="margin-top:4rem;"><span style="white-space: nowrap">&lt;?php echo phpversion(); ?&gt;</span> minutes long</h4>
+                </section>
+
+                <section>
+                    <h1 class="slide fancy">Call for Hosts and Speakers</h1>
+                </section>
+
+                <section>
+                    <img src="img/logo-transparent-background.png" alt="AmsterdamPHP">
+                    <div class="two-columns" style="margin-top: 1.5em;">
+                        <div>
+                            <h1 id="next-meetup-talk" class="slide fancy" style="font-size: 1.45em; max-width: 8em; margin-bottom: 3rem;"></h1>
+                            <h2 id="next-meetup-speaker" style="font-size: 0.9em;"></h2>
+                        </div>
+                        <div>
+                            <img id="hoster-next" class="hoster" src="" alt="" style="height: 200px;"><br>
+                            <img id="hoster-next-co-sponsor" class="hoster" src="" alt="">
+                        </div>
+                    </div>
+                    <h3 id="next-meetup-date" style="clear: both; margin-top: 1em"></h3>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'js/theme/amsterdamphp.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/jquery/jquery.js', condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/jquery/jquery.corner.js', async: true, callback: function() { enhanceSpeakerImage(); fillSlideData(); }, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+        </script>
+    </body>
+</html>
