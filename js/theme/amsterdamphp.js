@@ -1,5 +1,9 @@
 function fillSlideData()
 {
+    if (! slideData['text']['lightning-talk-speaker-name']) {
+        $('#lightning-talk').remove();
+    }
+
     for(var index in slideData["text"]) {
         $("#"+index).html(slideData["text"][index]);
     }
