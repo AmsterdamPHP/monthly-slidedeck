@@ -1,0 +1,44 @@
+.reveal section.rating-stack-slide h1 {
+  margin-bottom: 0.25em;
+}
+
+.reveal .rating-stack {
+  position: relative;
+  height: 560px;
+  margin: 0 auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+.reveal .rating-card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(var(--x), var(--y)) rotate(var(--rotate));
+  transition: opacity 220ms ease, transform 220ms ease;
+  z-index: var(--z);
+}
+
+.reveal .rating-card.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0, -70px) rotate(var(--rotate)) scale(0.92);
+}
+
+.reveal .rating-card img {
+  max-width: 86%;
+  max-height: 520px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 10px solid #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+}
+
+.reveal .rating-stack-status {
+  margin-top: 0.1em;
+  font-size: 0.6em;
+  color: #cccccc;
+}
