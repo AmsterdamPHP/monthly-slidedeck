@@ -1,0 +1,45 @@
+/* Generic slide utilities for reusable reveal.js patterns */
+
+.reveal section.fx-pop-layout {
+  position: relative;
+  min-height: 700px;
+  text-align: center;
+}
+
+.reveal section .fx-center-to-top-title {
+  position: absolute;
+  margin: 0 !important;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  transition: top 450ms ease, transform 450ms ease;
+}
+
+.reveal section .fx-pop-content {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 450ms ease, transform 450ms ease;
+  pointer-events: none;
+}
+
+.reveal section .fx-pop-trigger {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.reveal section.fx-pop-layout.expanded .fx-center-to-top-title {
+  top: 12%;
+  transform: translate(-50%, -100%);
+}
+
+.reveal section.fx-pop-layout.expanded .fx-pop-content {
+  opacity: 1;
+  transform: translateY(0);
+}
